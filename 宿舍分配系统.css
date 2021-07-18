@@ -1,0 +1,20 @@
+h3 {
+    text-align: center;
+}
+
+form {
+    text-align: center;
+    background-image: url(微信图片_20210717214116.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    color: white;
+}
+
+p {
+    text-align: center;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+}

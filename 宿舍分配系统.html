@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p {
+            font-family: 'Courier New', Courier, monospace;
+        }
+    </style>
+    <link rel="stylesheet" href="宿舍分配系统.css">
+</head>
+
+<body>
+    <h3>宿舍分配系统</h3>
+    <br/>
+    <p>欢迎来到北京交通大学威海校区！请填写以下表格来帮助你找到合适的舍友吧！</p>
+    <div>
+        <form action="完成界面.html">
+            <br/>姓名 <br/> <input type="text"> <br/>
+            <br/>性别 <br/> <input type="radio" id="sex male" name="sex"> <label for="sex male">男</label>
+            <input type="radio" id="sex female" name="sex"> <label for="sex female">女</label> <br/>
+            <br/>籍贯 <br/> <input type="text"> <br/>
+            <br/>专业 <br/>
+            <select>
+                <option>计算机科学与技术</option>
+                <option>通信工程</option>
+                <option>会计学</option>
+                <option>工商管理</option>
+                <option>信息系统与信息管理</option>
+                <option>环境工程</option>
+                <option>数字媒体与艺术</option>
+            </select> <br/>
+            <br/>年级 <br/>
+            <select>
+                <option>大一</option>
+                <option>大二</option>
+                <option>大三</option>
+                <option>大四</option>
+            </select> <br/>
+            <br/> 1.你希望你的舍友和你一个年级吗？
+            <br/>
+            <select>
+                <option>希望</option>
+                <option>不希望</option>
+                <option>无所谓</option>
+            </select> <br/>
+            <br/> 2.你希望你的舍友和你一个专业吗？
+            <br/>
+            <select>
+                <option>希望</option>
+                <option>不希望</option>
+                <option>无所谓</option>
+            </select> <br/>
+            <br/> 3.你晚上一般几点睡觉？
+            <br/>
+            <select name="sleep">
+                <option>9点以前</option>
+                <option>9点到10点</option>
+                <option>10点到11点</option>
+                <option>11点到12点</option>
+                <option>12点以后</option>
+            </select> <br/>
+            <br/> 4. 你毕业后的打算是什么？
+            <br/>
+            <select>
+                <option>保研</option>
+                <option>考研</option>
+                <option>出国</option>
+                <option>工作</option>
+            </select>
+            <br/> 5.你喜欢什么运动？（多选）
+            <br/> 篮球
+            <input type="checkbox" name="sports"> 足球<input type="checkbox" name="sports"> 羽毛球<input type="checkbox" name="sports"> 乒乓球
+            <input type="checkbox" name="sports"> 网球<input type="checkbox" name="sports"> 其他<input type="checkbox" name="sports"> <br/>
+            <br/> 6.你喜欢看什么类型的电视剧？
+            <br/>
+            <select>
+                <option>国产剧</option>
+                <option>美剧/英剧</option>
+                <option>韩剧</option>
+                <option>日剧</option>
+                <option>动漫</option>          
+            </select> <br/>
+            <br/> <label for="game">7.你喜欢玩什么游戏？</label> <br/> <input id="game"> <br/>
+            <br/> 8.你喜欢看什么类型的电影？（多选）
+            <br/> 战争<input type="checkbox" name="hobby"> 科幻<input type="checkbox" name="hobby"> 动作<input type="checkbox" name="hobby"> 爱情
+            <input type="checkbox" name="hobby"> 悬疑<input type="checkbox" name="hobby"> 恐怖<input type="checkbox" name="hobby"> 犯罪
+            <input type="checkbox" name="hobby"> 文艺<input type="checkbox" name="hobby"> <br/>
+            <br/> 9.你希望舍友是南方人还是北方人?
+            <br/>
+            <select>
+                <option>南方人</option>
+                <option>北方人</option>
+                <option>无所谓</option>
+            </select> <br/>
+            <br/> <label for="food">10.你喜欢吃什么口味的食物?</label> <br/> <input type="text" id="food"> <br/>
+            <br/> 11.你对我们的系统有什么改进意见？<br/> <textarea></textarea> <br/>
+            <br/> <input type="submit" name="完成"> &nbsp;&nbsp;&nbsp; <input type="reset" name="重新填写">
+
+        </form>
+    </div>
+</body>
+
+</html>
